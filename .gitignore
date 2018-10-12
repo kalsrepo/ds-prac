@@ -7,3 +7,37 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# git configurations
+.gitconfig
+
+# git attributes
+.gitattributes
+
+# vagrant build files
+.vagrant
+
+# compilation results
+#
+*.so
+*.a
+*.o
+*.pyc
+
+# cscope/ctags output
+cscope.files
+cscope.out
+tags
+
+# tmp files from editors
+*~
+.*.swp
+.*.swo
+
+# Mac OS X custom attribute files
+*.DS_Store
+
+# MAC OS X temp file
+._*
+
+
